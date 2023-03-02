@@ -1,16 +1,24 @@
 import pytest
 
-from my_code import add_one
+import my_code
 
 
+# Create the input values once nd leverage twice
 @pytest.fixture
 def some_value():
     return 3
 
 
 def test_add_one(some_value):
-    result = add_one(some_value)
+    result = my_code.add_one(some_value)
     expected = 4
+
+    assert result == expected
+
+
+def test_multiply_two(some_value):
+    result = my_code.multiply_two(some_value)
+    expected = 6
 
     assert result == expected
 
