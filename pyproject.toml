@@ -1,0 +1,6 @@
+[tool.pytest.ini_options]
+addopts = "--strict-markers -v"
+markers = [
+    "hotdog : slow running tests",
+    "not_hotdog : slow running tests",
+]
