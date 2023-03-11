@@ -1,3 +1,10 @@
+"""
+Tests simply need:
+    - an assert statement
+    - in a module with test as the prefix or suffix
+    - function name with test as the prefix or suffix
+"""
+
 from my_code import add_one
 
 
