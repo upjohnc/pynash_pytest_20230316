@@ -4,8 +4,10 @@ In test_other: once the first assertion fails the test function fails
 
 Using env var set in pyproject.toml, you do not need to patch the env vars
 """
-from add_one import add_one
+
 from pytest_check import check
+
+from add_one import add_one
 
 
 def test_with_check():
