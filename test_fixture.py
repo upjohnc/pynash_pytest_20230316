@@ -1,9 +1,15 @@
+"""
+First example of fixtur: we set up a fixture to be reused in two separate tests
+
+Second example: we show how the fixture yields to the test and then returns
+"""
+
 import pytest
 
 import my_code
 
 
-# Create the input values once nd leverage twice
+# Create the input values once and leverage twice
 @pytest.fixture
 def some_value():
     return 3
