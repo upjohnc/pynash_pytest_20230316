@@ -1,7 +1,13 @@
 """
-Because the constants are imported in the module of the function
-we couldn't just import `add_constant` as `from src.add_constant import add_constant`
+`src` is the root directory for the source code.
+We couldn't just import `add_constant` as `from src.add_constant import add_constant`
+The reason is that the imports done in the source code have `src` as the root directory.
+
+We set the `PYTHONPATH` when running the tests so that `src` is considered the root directory
+eg: `PYTHONPATH=src pytest .`
 """
+
+
 from add_constant import add_constant
 
 
