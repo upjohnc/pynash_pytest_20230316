@@ -1,7 +1,11 @@
 """
+Example of one test with multiple input combinations
+
 Run `pytest -v .` to see the combination information
 """
+
 import pytest
+
 from add_one import add_one
 
 # define a combination of input with its expected result
