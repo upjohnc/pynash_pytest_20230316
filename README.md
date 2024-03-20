@@ -15,8 +15,8 @@ pip install -r requirements.txt
 ```
 ## Plugins
 
-Plugins are additional python libraries that can
-added to your python virtualenv to extend pytest.
+Plugins are additional python libraries that you can
+add to your python virtualenv to extend pytest.
 
 Two that I find valuable are:
 - pytest-env : set env vars when running tests
