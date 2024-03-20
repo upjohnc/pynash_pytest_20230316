@@ -1,5 +1,5 @@
 """
-First example of fixtur: we set up a fixture to be reused in two separate tests
+First example of fixture: we set up a fixture to be reused in two separate tests
 
 Second example: we show how the fixture yields to the test and then returns
 """
@@ -29,8 +29,8 @@ def test_multiply_two(some_value):
     assert result == expected
 
 
-# Here shows how the set up, yield, and then teardown can work
-# to see the std out add `-s` to running tests: pytest -s .
+# Here shows how the set up, yield, and then teardown can work.
+# To see the std out add `-s` to running tests: pytest -s .
 @pytest.fixture
 def yield_it():
     print("Start fixture 1")
