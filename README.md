@@ -21,6 +21,6 @@ Other examples of usage are setting up an object and tearing it down, such as se
 up a datastore and tearing it down.
 
 Example:
-[Mock Postgress](https://ryan-duve.medium.com/how-to-mock-postgresql-with-pytest-and-pytest-postgresql-26b4a5ea3c25).
+[Mock Postgres](https://ryan-duve.medium.com/how-to-mock-postgresql-with-pytest-and-pytest-postgresql-26b4a5ea3c25).
 Note: it uses `pytest-postgresql`, the plugin, for connection object named postgresql.
 
